@@ -12,13 +12,22 @@
 # age = input("Enter your age: ")
 # job = input("Enter your job: ")
 
-# print(name, age, job) # inputga yozgan ma'lumotlaringizni ko'rsatadi
+# print(name, age, job)  #inputga yozgan ma'lumotlaringizni ko'rsatadi
 
 # CAPITALIZE
 # ism = input("Ismingiz nima: ")
-# print(ism.capitalize()) # Qanday uslubda ma'lumot kiritmang ning bosh harifini katta 
-# print(ism) # Asl o'zgaruvchining qiymatini o'zgartirmaydi yangi qiymat yaratadi capatalize va boshqa ko'plab funksiyalar
+# print(ism.capitalize()) # Qanday uslubda ma'lumot kiritmang ning bosh harifini katta
+# print(ism)              # Asl o'zgaruvchining qiymatini o'zgartirmaydi yangi qiymat yaratadi capatalize va boshqa ko'plab funksiyalar
 
 # UPPER
-hobby = input("Enter your hobby: ")
-print(hobby.upper()) # Kiritgan barcha ma'lumotlarni katta harfda ko'rsatadi
+# hobby = input("Enter your hobby: ")
+# print(hobby.upper()) # Kiritgan barcha ma'lumotlarni katta harfda ko'rsat
+
+
+# FUNKSIYALARNI KO'RIB CHIQISH
+
+def hello():
+    print("Hello there !")
+
+
+hello()
