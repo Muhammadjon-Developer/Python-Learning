@@ -26,8 +26,8 @@
 
 # FUNKSIYALARNI KO'RIB CHIQISH
 
-def hello():
-    print("Hello there !")
+def hello(name):
+    print("Hello there,", name)
 
 
-hello()
+hello('Muhammadjon')
