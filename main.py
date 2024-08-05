@@ -26,8 +26,20 @@
 
 # FUNKSIYALARNI KO'RIB CHIQISH
 
-def hello(name):
-    print("Hello there,", name)
+# def hello(name):
+#     print("Hello there,", name)
 
 
-hello('Muhammadjon')
+# hello('Muhammadjon')
+
+# FUNKSIYADAGI RETURN KALIT SO'ZI
+
+def sum_nums(a, b):
+    sum = a + b
+    return sum
+
+
+first_sum = sum_nums(10, 5)
+print(first_sum)
+
+print(sum_nums(10.5, 1))
