@@ -79,3 +79,26 @@
 # my-package = 'package' # paketlarni nomlashda
 
 # DB_PASSWORD = 'SNAKE_CASE'  # const (o'zgarmatdigan) tanlarni nomlashda snake_case katta harfda. (Pythonda luboy o'zgaruvchining qiymatini o'zgartirish mumkin ammo siz o'zgartirmaydigan o'zgaruvchilarning nomi barchasini katatta harflarda yozish BEST_PRACTISE ga kiradi)
+
+
+# O'ZGARUVCHILARNI ELON QILISH
+
+show_my_name = 'Muhammadjon'  # snake_case uslubida yozilgan chunki bu mashhur uslub
+
+print(show_my_name)  # Muhammadjon
+
+show_my_name = 'Oybek'  # snake_case uslubida yozilgan chunki bu mashhur uslub
+
+print(show_my_name)  # Oybek
+
+number = 10
+
+number = 20
+
+print(number)  # 20
+
+# Katta SBAKE_CASE uslubida yozilgan chunki biz bu o'zgaruvchini hech qachon o'zgartirmaymiz (misol uchun)
+MY_PASSWORD = '1234567qqw'
+
+# Kichik snake_case uslubida yozilgan chunki biz bu o'zgaruvchini o'zgartiramiz (misol uchun)
+my_username = 'MuhammadDevelopment'
